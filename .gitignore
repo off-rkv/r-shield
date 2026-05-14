@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+*.egg-info/
+dist/
+build/
+
+# Models — too large for GitHub
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Node
+node_modules/
+r-shield/node_modules/
+r-shield/dist/
+*.log
+
+# Data
+local_backup/
+*.jsonl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
